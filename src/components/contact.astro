@@ -18,9 +18,10 @@ import Formulario from "../components/formulario.astro";
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+    padding-inline: 20px;
   }
   .vector {
-    width: 700px;
+    width: 100%;
   }
 
   .img_container {
@@ -28,10 +29,11 @@ import Formulario from "../components/formulario.astro";
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   img {
     margin-inline: auto;
-    width: 100%;
+    width: 150px0;
   }
   .form_container {
     display: flex;
@@ -42,12 +44,16 @@ import Formulario from "../components/formulario.astro";
   @media screen and (min-width: 1400px) {
     .contacto {
       flex-direction: row;
+      padding-inline: 0;
     }
     .form_container {
       width: 50%;
     }
     .img_container {
       width: 50%;
+    }
+    .vector {
+      width: 700px;
     }
   }
 </style>
