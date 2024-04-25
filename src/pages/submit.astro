@@ -1,0 +1,57 @@
+---
+import Layout from "../layouts/layout.astro";
+---
+
+<Layout>
+  <main>
+    <section>
+      <img
+        src="https://ik.imagekit.io/jlc84/Jucla/2995664.ai.png?tr=w-900"
+        alt="vector email"
+      />
+    </section>
+    <section class="dialogo">
+      <p>Gracias por el mensaje.</p>
+      <p>Le contestaremos en breve.</p>
+      <a href="/">Volver a la página principal</a>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+  }
+  .dialogo {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f0f8ff;
+    padding: 50px;
+    box-shadow: 0 0 2px black;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    background-color: #000000a2;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    &:hover {
+      color: white;
+      background-color: black;
+      box-shadow: 0 0 5px purple;
+    }
+  }
+</style>
