@@ -55,7 +55,7 @@ export function Carrusel(props: CarruselProps) {
           {/* <h2>Nuestra Misión:</h2> */}
           <p>
             En Carpinteria Jucla, nos esforzamos por fusionar la tradición
-            artesanal con la innovación moderna.
+            artesanal con la innovación tecnológica.
           </p>
           <p>
             Cada proyecto es una obra de arte en sí misma, donde la calidad y la
