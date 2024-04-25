@@ -4,12 +4,6 @@ import Layout from "../layouts/layout.astro";
 
 <Layout>
   <main>
-    <section>
-      <img
-        src="https://ik.imagekit.io/jlc84/Jucla/2995664.ai.png?tr=w-900"
-        alt="vector email"
-      />
-    </section>
     <section class="dialogo">
       <p>Gracias por el mensaje.</p>
       <p>Le contestaremos en breve.</p>
@@ -24,6 +18,11 @@ import Layout from "../layouts/layout.astro";
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url("https://ik.imagekit.io/jlc84/Jucla/O6DY2A0.jpg?tr=w-900");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 75vh;
   }
   .dialogo {
     font-size: 25px;
@@ -33,7 +32,6 @@ import Layout from "../layouts/layout.astro";
     background-color: #f0f8ff;
     padding: 50px;
     box-shadow: 0 0 2px black;
-    transform: translateY(-200px);
   }
 
   a {
