@@ -1,0 +1,52 @@
+---
+import Formulario from "../components/formulario.astro";
+---
+
+<section class="contacto">
+  <div class="img_container">
+    <img
+      src="https://ik.imagekit.io/jlc84/Jucla/email.png?tr=w-600"
+      alt="Chica enviando un email"
+      class="vector"
+    />
+  </div>
+  <div class="form_container"><Formulario /></div>
+</section>
+
+<style>
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .vector {
+    width: 700px;
+  }
+
+  .img_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    margin-inline: auto;
+  }
+  .form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  @media screen and (min-width: 1400px) {
+    .contacto {
+      flex-direction: row;
+    }
+    .form_container {
+      width: 50%;
+    }
+    .img_container {
+      width: 50%;
+    }
+  }
+</style>

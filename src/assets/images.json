@@ -1,0 +1,49 @@
+{
+  "imagenes": [
+    {
+      "id": "1",
+      "src": "https://ik.imagekit.io/jlc84/Jucla/photo-1504624720567-64a41aa25d70.jpeg",
+      "alt": "Altillo con mesa de cocina"
+    },
+    {
+      "id": "2",
+      "src": "https://ik.imagekit.io/jlc84/Jucla/photo-1537726235470-8504e3beef77.jpeg",
+      "alt": "Salon, comedor frente al mar"
+    },
+    {
+      "id": "3",
+      "src": "https://ik.imagekit.io/jlc84/Jucla/photo-1519643381401-22c77e60520e.jpeg",
+      "alt": "Mesa con lampara rustica"
+    },
+    {
+      "id": "4",
+      "src": "https://ik.imagekit.io/jlc84/Jucla/photo-1502672260266-1c1ef2d93688.jpeg",
+      "alt": "Salita"
+    },
+    {
+      "id": "5",
+      "src": "https://ik.imagekit.io/jlc84/Jucla/photo-1501183638710-841dd1904471.jpeg",
+      "alt": "Salon"
+    },
+    {
+      "id": "6",
+      "src": "https://ik.imagekit.io/jlc84/Jucla/photo-1502005229762-cf1b2da7c5d6.jpeg",
+      "alt": "Escaleras de madera"
+    },
+    {
+      "id": "7",
+      "src": "https://ik.imagekit.io/jlc84/Jucla/photo-1649361811423-a55616f7ab11.jpeg",
+      "alt": "Armario vestidor"
+    },
+    {
+      "id": "8",
+      "src": "https://ik.imagekit.io/jlc84/Jucla/photo-1672137233327-37b0c1049e77.jpeg",
+      "alt": "Armario vestidor"
+    },
+    {
+      "id": "9",
+      "src": "https://ik.imagekit.io/jlc84/Jucla/photo-1630904989936-da6328c2f92d.jpeg",
+      "alt": "Armario vestidor moderno"
+    }
+  ]
+}

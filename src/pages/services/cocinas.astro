@@ -1,0 +1,16 @@
+---
+import Service from "../../layouts/service.astro";
+import ServiceCard from "../../components/service_card.astro";
+
+const data = {
+  header: "Diseño y montaje de Cocinas",
+  h1: "Diseño y Fabricación de Cocinas a Medida en Carpintería Jucla.",
+  body: "En Carpintería Jucla, entendemos que la organización y el estilo son elementos esenciales para cualquier hogar. Calidad, funcionalidad, diseño, confort y elegancia son parte de nuestro compromiso.",
+  img: "https://images.unsplash.com/photo-1604709178681-82325c04f8bd?w=1200",
+  alt: "Cocina",
+};
+---
+
+<Service>
+  <ServiceCard data={data} />
+</Service>

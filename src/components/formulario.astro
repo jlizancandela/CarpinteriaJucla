@@ -1,0 +1,49 @@
+<form>
+  <input type="text" name="nombre" placeholder="Nombre" />
+  <input type="email" name="email" placeholder="Email" />
+  <input type="tel" name="telefono" placeholder="Teléfono" />
+  <textarea placeholder="¿Qué necesitas?"></textarea>
+  <button>Enviar</button>
+</form>
+
+<style>
+  form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  input,
+  textarea {
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+  }
+
+  button {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  input:focus,
+  textarea:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid purple;
+    transition: all 500ms ease;
+  }
+
+  textarea {
+    resize: none;
+  }
+</style>

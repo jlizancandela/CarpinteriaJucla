@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/layout.astro";
+import { Carrusel } from "../components/carrusel";
+import Services from "../components/services.astro";
+import { Galeria } from "../components/galeria";
+import Slider from "../assets/slider.json";
+import { Cokkies } from "../components/cookies-consent";
+const { slider } = Slider;
+---
+
+<Layout>
+  <Carrusel images={slider} client:load />
+  <Services />
+  <Galeria client:load />
+  <Cokkies client:only="react" />
+</Layout>

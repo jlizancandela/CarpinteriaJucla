@@ -1,0 +1,16 @@
+---
+import Service from "../../layouts/service.astro";
+import ServiceCard from "../../components/service_card.astro";
+
+const data = {
+  header: "Armarios y vestidores",
+  h1: "Diseño y Fabricación de Vestidores a Medida en Carpintería Jucla.",
+  body: "En Carpintería Jucla, entendemos que la organización y el estilo son elementos esenciales para cualquier hogar. Calidad, funcionalidad, diseño, confort y elegancia son parte de nuestro compromiso.",
+  img: "https://images.unsplash.com/photo-1614631446501-abcf76949eca?w=700",
+  alt: "Armario",
+};
+---
+
+<Service>
+  <ServiceCard data={data} />
+</Service>

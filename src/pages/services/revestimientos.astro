@@ -1,0 +1,16 @@
+---
+import Service from "../../layouts/service.astro";
+import ServiceCard from "../../components/service_card.astro";
+
+const data = {
+  header: "Pavimentos de madera y revestimientos",
+  h1: "Instalación de pavimentos de madera y revestimientos en Carpintería Jucla.",
+  body: "En Carpintería Jucla, entendemos que la organización y el estilo son elementos esenciales para cualquier hogar. Calidad, funcionalidad, diseño, confort y elegancia son parte de nuestro compromiso.",
+  img: "https://images.unsplash.com/photo-1557374669-212156d0ee06?w=700",
+  alt: "Escaleras revestidas de madera.",
+};
+---
+
+<Service>
+  <ServiceCard data={data} />
+</Service>

@@ -1,0 +1,52 @@
+.galeria {
+    display: flex;
+    gap: 10px;
+    margin: 100px auto 100px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    &:hover {
+        transform:scale(1.2);
+        transition: all 100ms ease;
+        cursor: pointer;
+    }
+}
+
+.lightbox {
+    display: none;
+    background-color: #000000a2;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    button {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        position: fixed;
+        top: 0;
+        left:0;
+    }
+    justify-content: center;
+    align-items: center;
+
+    img {
+        display: block;
+        height: 90%;
+        width: auto;
+        object-fit: cover;
+        transition: all 500ms ease;
+
+    }
+}
+
+.visible {
+    display:flex;
+}

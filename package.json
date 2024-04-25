@@ -1,0 +1,31 @@
+{
+  "name": "carpinteria",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/react": "^3.1.1",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.23",
+    "astro": "^4.5.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.8",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "postcss-html": "^1.6.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "stylelint": "^16.3.1",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}

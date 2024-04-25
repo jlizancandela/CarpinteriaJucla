@@ -1,0 +1,22 @@
+---
+import Navbar from "../components/navbar.astro";
+import "../assets/index.css";
+import Footer from "../components/footer.astro";
+import Contact from "../components/contact.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <Navbar />
+    <slot />
+    <Contact />
+    <Footer />
+  </body>
+</html>

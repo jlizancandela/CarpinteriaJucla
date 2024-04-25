@@ -1,0 +1,49 @@
+<footer>
+  <section class="empresa">
+    <a href="/">Carpinteria Jucla</a>
+  </section>
+  <section class="contacto">
+    <a href="/contacto">Contacto</a>
+  </section>
+  <section class="legal">
+    <a href="/legal/avisolegal">Aviso legal</a>
+    <a href="/legal/privacidad">Política de privacidad</a>
+    <a href="/legal/cookies">Política de Cookies</a>
+  </section>
+</footer>
+
+<style>
+  footer {
+    background-color: gainsboro;
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  span {
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      color: purple;
+    }
+  }
+
+  .legal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    footer {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+</style>

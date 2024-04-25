@@ -1,0 +1,20 @@
+{
+  "slider": [
+    {
+      "src": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1200",
+      "alt": "Cocina"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600493505423-474fea65ad9e?w=1200",
+      "alt": "Otra cocina"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1631889993877-71e193bf79b8?w=1200",
+      "alt": "Vestidor"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1603430416695-752802223e94?w=1200",
+      "alt": "Gran superficie con suelo de madera"
+    }
+  ]
+}

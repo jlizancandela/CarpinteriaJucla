@@ -1,0 +1,56 @@
+---
+import Card from "./card.astro";
+import Servicios from "../assets/servicios.json";
+
+const { servicios } = Servicios;
+---
+
+<section class="services">
+  <section class="text">
+    <p>NUESTROS SERVICIOS</p>
+  </section>
+  <section class="cards">
+    {
+      servicios.map(({ img, title, txt, button, href }) => (
+        <Card img={img} title={title} txt={txt} button={button} href={href} />
+      ))
+    }
+  </section>
+</section>
+
+<style>
+  .services {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    font-size: 23px;
+    p {
+      font-weight: bold;
+      padding-bottom: 5px;
+      font-size: 29px;
+    }
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px 100px 20px;
+    gap: 100px;
+  }
+
+  @media screen and (width >= 1400px) {
+    .cards {
+      flex-direction: row;
+      height: 600px;
+      padding: 20px 0;
+    }
+  }
+</style>
